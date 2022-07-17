@@ -14,7 +14,7 @@ spec:
   spec:
    containers:
     - name: server
-      image: dopehead100/multi-server:v2
+      image: dopehead100/multi-server
       ports:
        - containerPort: 5000
       env:
